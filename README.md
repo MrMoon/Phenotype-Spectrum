@@ -1,0 +1,2 @@
+# P-Spectrum
+A small yet powerful system that can be used to assigns students and teachers to their courses, provide an exam timetable based on students courses and to make sure that the timetable is flexible and somewhere optimal for 99.99% of the students in an automated way, and finally the ability to take the online exam and the ability for instructor to notify students when their marks will be up and the review of the exam, as well as providing analysis for the instructor to see how students performed in the exam.
