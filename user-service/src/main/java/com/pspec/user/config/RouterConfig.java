@@ -17,6 +17,9 @@ public class RouterConfig {
         return RouterFunctions
                 .route()
                 .POST("/user" , userHandler::createUser)
+                .PUT("/user" , userHandler::updateUser)
+                .DELETE("/user" , userHandler::deleteUserById)
+                .POST("get/user/" , userHandler::getUserById)
                 .build();
     }
 
