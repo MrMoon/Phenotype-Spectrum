@@ -1,10 +1,10 @@
 package com.pspec.user.service;
 
-import com.pspec.user.model.User;
+import com.pspec.user.model.Users;
 import reactor.core.publisher.Mono;
 
-public interface UserService { //TODO
+public interface UserService {
 
-    Mono<User> save(User user);
+    Mono<Users> createUser(Users users);
 
 }

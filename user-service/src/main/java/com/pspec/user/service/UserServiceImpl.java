@@ -1,6 +1,6 @@
 package com.pspec.user.service;
 
-import com.pspec.user.model.User;
+import com.pspec.user.model.Users;
 import com.pspec.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -13,7 +13,9 @@ public class UserServiceImpl implements UserService {
     private final UserRepository userRepository;
 
     @Override
-    public Mono<User> save(User user) {
-        return this.userRepository.save(user);
+    public Mono<Users> createUser(Users users) {
+        return this.userRepository.save(users);
     }
+
+
 }
