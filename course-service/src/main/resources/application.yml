@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: pspec-course
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/${spring.application.name}
+    username: postgres
+    password: changeme
+
+
+server:
+  port: 7877
